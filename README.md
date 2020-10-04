@@ -4,6 +4,8 @@ The aim of this project is to visualize data with a scatterplot graph using JSON
 
 It is in a functionality similar to https://codepen.io/freeCodeCamp/full/bgpXyK.
 
+Example - Doping in Professional Bicycle Racing.
+
 ## UX
 
 User stories taken from https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph
@@ -46,4 +48,13 @@ As a user, I can mouse over an area and see a tooltip with a corresponding
 
 My tooltip should have a `data-year` property that corresponds to the `data-xvalue`
 of the active area.
+
+Data from https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+
+Data - year (x-axis) and time (y-axis).
+
+[Wireframes](wireframes/wireframe-scatterplot-graph) are supplied.
+
+
+
 
