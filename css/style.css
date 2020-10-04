@@ -23,3 +23,24 @@ svg {
     font-size: 30px;
     fill: purple;
 }
+
+/* Graph */
+.dot {
+    stroke: black;
+    opacity: 0.8;
+}
+
+g {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    color: purple;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
