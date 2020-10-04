@@ -55,6 +55,14 @@ Data - year (x-axis) and time (y-axis).
 
 [Wireframes](wireframes/wireframe-scatterplot-graph) are supplied.
 
+## Credits
+
+### Content
+
+### Acknowledgement
+
+paycoguy at freecodecamp.org
+
 
 
 
