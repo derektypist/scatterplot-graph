@@ -17,3 +17,9 @@ svg {
     display: block;
     margin: auto;
 }
+
+/* Title */
+#title {
+    font-size: 30px;
+    fill: purple;
+}
