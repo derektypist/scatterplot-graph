@@ -16,3 +16,9 @@ let drawCanvas = () => {
     svg.attr('width', width);
     svg.attr('height', height);
 };
+
+// Set Up Scales
+let generateScales = () => {
+    xScale = d3.scaleLinear().range([0, width]);
+    heightScale = d3.scaleTime().range([0, height]);
+};
