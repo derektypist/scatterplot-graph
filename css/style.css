@@ -30,6 +30,11 @@ svg {
     opacity: 0.8;
 }
 
+.dot:hover {
+    stroke: seagreen;
+    opacity: 0.8;
+}
+
 g {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     color: purple;
