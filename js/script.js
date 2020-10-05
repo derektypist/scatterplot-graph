@@ -9,3 +9,10 @@ let yAxisScale;
 let width = 850;
 let height = 650;
 let padding = 40;
+let svg = d3.select('svg');
+
+// Draw Canvas
+let drawCanvas = () => {
+    svg.attr('width', width);
+    svg.attr('height', height);
+};
