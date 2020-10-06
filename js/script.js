@@ -34,3 +34,44 @@ let generateScales = () => {
         })])
         .range([padding, height-padding]);
 };
+
+// Draw Points
+let drawPoints = () => {
+    svg.selectAll('circle')
+        .data(values)
+        .enter()
+        .append(circle)
+        .attr('class', 'dot')
+        .attr('r', '5')
+        .attr('data-xvalue', (item) => {
+            return item['Year'];
+        })
+        .attr('data-yvalue', (item) => {
+            return new Date(item['Seconds'] * 1000);
+        })
+        .attr('cx', (item) => {
+            return xScale(item['Year']);
+        })
+        .attr('cy', (item) => {
+            return yScale(new Date(item['Seconds'] * 1000));
+        })
+        .attr('fill', (item) => {
+            if(item['URL'] === '') {
+                return 'lightgreen';
+            } else {
+                return 'orange';
+            }
+        })
+        .on('mouseover', (e, item) => {
+            tooltip.transition().style('visibility', 'visible');
+            if(item['Doping'] !== "") {
+                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time']);
+            } else {
+                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time']);
+            }
+            tooltip.attr('data-year', item['Year']);
+        })
+        .on('mouseout', (item) => {
+            tooltip.transition.style('visibility', 'hidden');
+        });
+};
