@@ -65,9 +65,9 @@ let drawPoints = () => {
         .on('mouseover', (e, item) => {
             tooltip.transition().style('visibility', 'visible');
             if(item['Doping'] !== "") {
-                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time']);
+                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time'] + ' - ' + item['Nationality']);
             } else {
-                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time']);
+                tooltip.text(item['Year'] + ' - ' + item['Name'] + ' - ' + item['Time'] + ' - ' + item['Nationality']);
             }
             tooltip.attr('data-year', item['Year']);
         })
