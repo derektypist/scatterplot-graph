@@ -94,3 +94,15 @@ let generateAxes = () => {
         .attr('transform', 'translate(' + padding + ', 0)');
 
 };
+
+// Request JSON from the Server
+req.open('GET', url, true);
+req.onload = () => {
+    values = JSON.parse(req.responseText);
+    console.log(values);
+    drawCanvas();
+    generateScales();
+    drawPoints();
+    generateAxes();
+};
+req.send();
