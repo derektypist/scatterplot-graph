@@ -67,11 +67,23 @@ This project uses HTML5, CSS3, JavaScript and D3.  Additional Technologies inclu
 
 ### Content
 
+Did a Google Search on freecodecamp scatterplot.
+
+HTML5 within the body tag taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Scatterplot-Graph-f3b277dc35294accb4d42a0358b92009)
+website, accessed on 6 October 2020.
+
+### Media
+
+Data provided by https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+
 ### Acknowledgement
 
 paycoguy at freecodecamp.org
 
 [YouTube Video](https://www.youtube.com/watch?v=OvtT4X2L9Fo) from Ganesh H.  Accessed on 6 October 2020.
+
+[Notion](https://www.notion.so/Visualize-Data-with-a-Scatterplot-Graph-f3b277dc35294accb4d42a0358b92009).  Accessed
+on 6 October 2020.
 
 
 
