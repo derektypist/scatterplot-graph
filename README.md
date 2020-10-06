@@ -55,6 +55,14 @@ Data - year (x-axis) and time (y-axis).
 
 [Wireframes](wireframes/wireframe-scatterplot-graph) are supplied.
 
+## Features
+
+This scatterplot graph has multiple tick labels.  If there was more time, update the data.
+
+## Technologies
+
+This project uses HTML5, CSS3, JavaScript and D3.  Additional Technologies include Google Fonts.
+
 ## Credits
 
 ### Content
