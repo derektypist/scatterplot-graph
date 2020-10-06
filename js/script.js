@@ -40,7 +40,7 @@ let drawPoints = () => {
     svg.selectAll('circle')
         .data(values)
         .enter()
-        .append(circle)
+        .append('circle')
         .attr('class', 'dot')
         .attr('r', '5')
         .attr('data-xvalue', (item) => {
