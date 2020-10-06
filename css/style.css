@@ -28,8 +28,10 @@ svg {
 
 /* Graph */
 .dot {
-    stroke: black;
-    opacity: 0.8;
+    background-color: green;
+    border-color: green;
+    fill: green;
+
 }
 
 .dot:hover {
