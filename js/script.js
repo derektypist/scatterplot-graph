@@ -75,3 +75,22 @@ let drawPoints = () => {
             tooltip.transition.style('visibility', 'hidden');
         });
 };
+
+// Generate Axes
+let generateAxes = () => {
+    // Apply Formats to Axes
+
+    xAxis = d3.axisBottom(xScale).tickFormat(d3.format('d'));
+    yAxis = d3.axisLeft(yScale).tickFormat(d3.timeFormat('%M:%S'));
+
+    svg.append('g')
+        .call(xAxis)
+        .attr('id', 'x-axis')
+        .attr('transform', 'translate(0, ' + (height-padding) + ')');
+
+    svg.append('g')
+        .call(yAxis)
+        .attr('id', 'y-axis')
+        .attr('transform', 'translate(' + padding + ', 0)');
+
+};
