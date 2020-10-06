@@ -73,6 +73,8 @@ below the custom script for testing.  Select run tests.  Make sure all the tests
 Deployed on [GitHub Pages](https://derektypist.github.io/scatterplot-graph) at the
 main branch.
 
+To make any changes, edit the code and use the git push command.
+
 ## Credits
 
 ### Content
