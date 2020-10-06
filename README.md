@@ -79,14 +79,14 @@ main branch.
 
 Did a Google Search on freecodecamp scatterplot.
 
-HTML5 within the body tag taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Scatterplot-Graph-f3b277dc35294accb4d42a0358b92009)
+HTML5 (within the body tag), CSS and JavaScript taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Scatterplot-Graph-f3b277dc35294accb4d42a0358b92009)
 website, accessed on 6 October 2020.
 
 ### Media
 
 Data provided by https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json
 
-### Acknowledgement
+### Acknowledgements
 
 paycoguy at freecodecamp.org
 
