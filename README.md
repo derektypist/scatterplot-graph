@@ -57,11 +57,21 @@ Data - year (x-axis) and time (y-axis).
 
 ## Features
 
-This scatterplot graph has multiple tick labels.  If there was more time, update the data.
+This scatterplot allows the user to view more information about the area when a dot is hovered.  If there was more time, update the data.
 
 ## Technologies
 
 This project uses HTML5, CSS3, JavaScript and D3.  Additional Technologies include Google Fonts.
+
+## Testing
+
+Use `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+below the custom script for testing.  Select run tests.  Make sure all the tests are passing.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/scatterplot-graph) at the
+main branch.
 
 ## Credits
 
