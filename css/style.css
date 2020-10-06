@@ -52,3 +52,10 @@ g {
     font-size: 24px;
     margin-bottom: 5px;
 }
+
+#legend {
+    margin-top: 5px;
+    color: lightblue;
+    font-size: 18px;
+    text-align: center;
+}
