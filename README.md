@@ -71,6 +71,8 @@ This project uses HTML5, CSS3, JavaScript and D3.  Additional Technologies inclu
 
 paycoguy at freecodecamp.org
 
+[YouTube Video](https://www.youtube.com/watch?v=OvtT4X2L9Fo) from Ganesh H.  Accessed on 6 October 2020.
+
 
 
 
