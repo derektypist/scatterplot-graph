@@ -57,7 +57,7 @@ let drawPoints = () => {
         })
         .attr('fill', (item) => {
             if(item['URL'] === '') {
-                return 'lightgreen';
+                return 'green';
             } else {
                 return 'orange';
             }
