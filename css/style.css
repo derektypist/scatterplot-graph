@@ -27,12 +27,6 @@ svg {
 }
 
 /* Graph */
-.dot {
-    background-color: green;
-    border-color: green;
-    fill: green;
-
-}
 
 .dot:hover {
     fill: purple;
