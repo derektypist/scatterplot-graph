@@ -35,8 +35,7 @@ svg {
 }
 
 .dot:hover {
-    stroke: seagreen;
-    opacity: 0.8;
+    fill: purple;
 }
 
 g {
@@ -45,11 +44,11 @@ g {
 }
 
 #tooltip {
-    position: absolute;
-    padding: 10px;
-    font-size: 12px;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+    color: lightblue;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
