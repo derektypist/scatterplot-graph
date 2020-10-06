@@ -72,7 +72,7 @@ let drawPoints = () => {
             tooltip.attr('data-year', item['Year']);
         })
         .on('mouseout', (item) => {
-            tooltip.transition.style('visibility', 'hidden');
+            tooltip.transition().style('visibility', 'hidden');
         });
 };
 
